@@ -25,7 +25,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: SvgPicture.asset("assets/img1.svg"),
+        child: Image.asset(
+          "assets/img2.png",
+        ),
       ),
     );
   }
